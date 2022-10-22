@@ -1,0 +1,21 @@
+body
+{
+    background-size:cover ;
+    background-position: center ;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+a
+{
+ font-size: 23px;
+ color: rgb(127, 110, 239);
+
+}
+a :hover
+{
+    color: rgb(32, 28, 63)
+}
