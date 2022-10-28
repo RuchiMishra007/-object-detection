@@ -12,7 +12,7 @@ function setup()
 
 function preload()
 {
-    img = loadImage('plant.avif')
+    img = loadImage('bedroom.webp')
 }
 
 function draw()
@@ -34,22 +34,22 @@ function draw()
         }
     }
     fill("#17202A");
-    text("plant", 45, 75);
+    text("bed", 100, 75);
     noFill();
     stroke("#17202A");
     rect(30, 60, 450, 350);
 
     fill("#17202A");
-    text("plant", 320, 120);
+    text("bedstand", 70, 120);
     noFill();
     stroke("#17202A");
     rect(300, 90, 270, 320);
 
     fill("#17202A");
-    text("plant", 320, 120);
+    text("bedstand", 70, 120);
     noFill();
     stroke("#17202A");
-    rect(300, 90, 270, 220);
+    rect(30, 90, 270, 220);
 }
 
 function modelLoaded()
